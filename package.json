@@ -1,0 +1,46 @@
+{
+  "name": "@damnard/node-typescript-commander-example",
+  "version": "0.0.1",
+  "description": "Exemple d'application Node.js avec Commander & TypeScript",
+  "type": "module",
+  "exports": {
+    "./01-hello-world": {
+      "import": "./dist/01-hello-world/index.js",
+      "types": "./dist/01-hello-world/index.d.ts"
+    }
+  },
+  "scripts": {
+    "clean": "tsc --build --clean",
+    "build": "tsc --build",
+    "fix": "eslint --fix src/**/*.ts && prettier . --write",
+    "lint": "eslint src/**/*.ts"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "keywords": [
+    "node",
+    "typescript",
+    "commander"
+  ],
+  "author": "Damien Bernard",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damien-bernard/node-typescript-commander-example.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard-with-typescript": "^43.0.1",
+    "prettier": "^3.2.4",
+    "typescript": "^5.3.3"
+  }
+}
