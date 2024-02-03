@@ -11,6 +11,10 @@
     "./10-commands": {
       "import": "./dist/10-commands/index.js",
       "types": "./dist/10-commands/index.d.ts"
+    },
+    "./20-arguments": {
+      "import": "./dist/20-arguments/index.js",
+      "types": "./dist/20-arguments/index.d.ts"
     }
   },
   "scripts": {
