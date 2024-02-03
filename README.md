@@ -26,7 +26,7 @@ node ./dist/10-commands/index.js second
 node ./dist/10-commands/index.js --help
 ```
 
-# 20-arguments
+# 20 - Arguments
 
 Pour lancer l'application, il faut exécuter la commande suivante :
 
