@@ -47,3 +47,14 @@ node ./dist/21-arguments-variadic/index.js a b c d e
 node ./dist/21-arguments-variadic/index.js a
 node ./dist/21-arguments-variadic/index.js --help
 ```
+
+# 22 - Arguments default
+
+Pour lancer l'application, il faut exécuter la commande suivante :
+
+```bash
+node ./dist/22-arguments-default/index.js
+node ./dist/22-arguments-default/index.js nimda 654321
+node ./dist/22-arguments-default/index.js nimda
+node ./dist/22-arguments-default/index.js --help
+```
