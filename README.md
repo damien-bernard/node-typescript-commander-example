@@ -36,3 +36,14 @@ node ./dist/20-arguments/index.js admin azerty
 node ./dist/20-arguments/index.js admin
 node ./dist/20-arguments/index.js --help
 ```
+
+# 21 - Arguments variadic
+
+Pour lancer l'application, il faut exécuter la commande suivante :
+
+```bash
+node ./dist/21-arguments-variadic/index.js
+node ./dist/21-arguments-variadic/index.js a b c d e
+node ./dist/21-arguments-variadic/index.js a
+node ./dist/21-arguments-variadic/index.js --help
+```
