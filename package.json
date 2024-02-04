@@ -19,6 +19,10 @@
     "./21-arguments-variadic": {
       "import": "./dist/21-arguments-variadic/index.js",
       "types": "./dist/21-arguments-variadic/index.d.ts"
+    },
+    "./22-arguments-default": {
+      "import": "./dist/22-arguments-default/index.js",
+      "types": "./dist/22-arguments-default/index.d.ts"
     }
   },
   "scripts": {
