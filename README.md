@@ -58,3 +58,14 @@ node ./dist/22-arguments-default/index.js nimda 654321
 node ./dist/22-arguments-default/index.js nimda
 node ./dist/22-arguments-default/index.js --help
 ```
+
+# 23 - Arguments choices
+
+Pour lancer l'application, il faut exécuter la commande suivante :
+
+```bash
+node ./dist/23-arguments-choices/index.js
+node ./dist/23-arguments-choices/index.js 80
+node ./dist/23-arguments-choices/index.js 85
+node ./dist/23-arguments-choices/index.js --help
+```
