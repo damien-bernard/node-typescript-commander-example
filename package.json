@@ -23,6 +23,10 @@
     "./22-arguments-default": {
       "import": "./dist/22-arguments-default/index.js",
       "types": "./dist/22-arguments-default/index.d.ts"
+    },
+    "./23-arguments-choices": {
+      "import": "./dist/23-arguments-choices/index.js",
+      "types": "./dist/23-arguments-choices/index.d.ts"
     }
   },
   "scripts": {
