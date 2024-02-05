@@ -27,6 +27,10 @@
     "./23-arguments-choices": {
       "import": "./dist/23-arguments-choices/index.js",
       "types": "./dist/23-arguments-choices/index.d.ts"
+    },
+    "./30-options": {
+      "import": "./dist/30-options/index.js",
+      "types": "./dist/30-options/index.d.ts"
     }
   },
   "scripts": {

@@ -69,3 +69,15 @@ node ./dist/23-arguments-choices/index.js 80
 node ./dist/23-arguments-choices/index.js 85
 node ./dist/23-arguments-choices/index.js --help
 ```
+
+# 30 - Options
+
+Pour lancer l'application, il faut exécuter la commande suivante :
+
+```bash
+node ./dist/30-options/index.js
+node ./dist/30-options/index.js -u admin
+node ./dist/30-options/index.js -u admin -p azerty
+node ./dist/30-options/index.js -p azerty
+node ./dist/30-options/index.js --help
+```
