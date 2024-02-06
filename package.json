@@ -35,6 +35,10 @@
     "./31-options-variadic": {
       "import": "./dist/31-options-variadic/index.js",
       "types": "./dist/31-options-variadic/index.d.ts"
+    },
+    "./32-options-default": {
+      "import": "./dist/32-options-default/index.js",
+      "types": "./dist/32-options-default/index.d.ts"
     }
   },
   "scripts": {

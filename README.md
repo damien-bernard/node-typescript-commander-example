@@ -93,3 +93,15 @@ node ./dist/31-options-variadic/index.js --value a --values b c d
 node ./dist/31-options-variadic/index.js --values b c d
 node ./dist/31-options-variadic/index.js --help
 ```
+
+# 32 - Options default
+
+Pour lancer l'application, il faut exécuter l'une des commandes suivantes :
+
+```bash
+node ./dist/32-options-default/index.js
+node ./dist/32-options-default/index.js -u nimda
+node ./dist/32-options-default/index.js -u nimda -p 654321
+node ./dist/32-options-default/index.js -p 654321
+node ./dist/32-options-default/index.js --help
+```
