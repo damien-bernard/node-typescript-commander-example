@@ -81,3 +81,15 @@ node ./dist/30-options/index.js -u admin -p azerty
 node ./dist/30-options/index.js -p azerty
 node ./dist/30-options/index.js --help
 ```
+
+# 31 - Options variadic
+
+Pour lancer l'application, il faut exécuter l'une des commandes suivantes :
+
+```bash
+node ./dist/31-options-variadic/index.js
+node ./dist/31-options-variadic/index.js --value a
+node ./dist/31-options-variadic/index.js --value a --values b c d
+node ./dist/31-options-variadic/index.js --values b c d
+node ./dist/31-options-variadic/index.js --help
+```
