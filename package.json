@@ -31,6 +31,10 @@
     "./30-options": {
       "import": "./dist/30-options/index.js",
       "types": "./dist/30-options/index.d.ts"
+    },
+    "./31-options-variadic": {
+      "import": "./dist/31-options-variadic/index.js",
+      "types": "./dist/31-options-variadic/index.d.ts"
     }
   },
   "scripts": {
