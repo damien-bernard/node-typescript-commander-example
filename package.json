@@ -39,6 +39,10 @@
     "./32-options-default": {
       "import": "./dist/32-options-default/index.js",
       "types": "./dist/32-options-default/index.d.ts"
+    },
+    "./33-options-choices": {
+      "import": "./dist/33-options-choices/index.js",
+      "types": "./dist/33-options-choices/index.d.ts"
     }
   },
   "scripts": {
