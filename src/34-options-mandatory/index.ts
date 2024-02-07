@@ -13,7 +13,7 @@ function print(options: Options):void {
 
 const program = new commander.Command();
 program
-  .version('1.0.0')
+  .version(version)
   .addOption(new commander.Option('-p, --port <port>', 'port number').makeOptionMandatory(true))
   .action(print);
 
