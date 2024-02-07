@@ -105,3 +105,14 @@ node ./dist/32-options-default/index.js -u nimda -p 654321
 node ./dist/32-options-default/index.js -p 654321
 node ./dist/32-options-default/index.js --help
 ```
+
+# 33 - Options choices
+
+Pour lancer l'application, il faut exécuter l'une des commandes suivantes :
+
+```bash
+node ./dist/33-options-choices/index.js
+node ./dist/33-options-choices/index.js -p 70
+node ./dist/33-options-choices/index.js -p 80
+node ./dist/33-options-choices/index.js --help
+```
