@@ -116,3 +116,14 @@ node ./dist/33-options-choices/index.js -p 70
 node ./dist/33-options-choices/index.js -p 80
 node ./dist/33-options-choices/index.js --help
 ```
+
+# 33 - Options choices
+
+Pour lancer l'application, il faut exécuter l'une des commandes suivantes :
+
+```bash
+node ./dist/34-options-mandatory/index.js
+node ./dist/34-options-mandatory/index.js -p
+node ./dist/34-options-mandatory/index.js -p 80
+node ./dist/34-options-mandatory/index.js --help
+```
