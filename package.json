@@ -43,6 +43,10 @@
     "./33-options-choices": {
       "import": "./dist/33-options-choices/index.js",
       "types": "./dist/33-options-choices/index.d.ts"
+    },
+    "./34-options-mandatory": {
+      "import": "./dist/34-options-mandatory/index.js",
+      "types": "./dist/34-options-mandatory/index.d.ts"
     }
   },
   "scripts": {
