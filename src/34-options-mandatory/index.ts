@@ -4,17 +4,22 @@ import * as commander from 'commander'
 import { version } from '../version.js'
 
 interface Options {
-  port: number;
+  port: number
 }
 
-function print(options: Options):void {
-  console.log(`port is '%s'`, options.port);
+function print(options: Options): void {
+  console.log(`port is '%s'`, options.port)
 }
 
-const program = new commander.Command();
+const program = new commander.Command()
 program
   .version(version)
-  .addOption(new commander.Option('-p, --port <port>', 'port number').makeOptionMandatory(true))
-  .action(print);
+  .addOption(
+    new commander.Option(
+      '-p, --port <port>',
+      'port number',
+    ).makeOptionMandatory(true),
+  )
+  .action(print)
 
-program.parse(process.argv);
+program.parse(process.argv)
