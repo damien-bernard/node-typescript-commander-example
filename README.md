@@ -117,7 +117,7 @@ node ./dist/33-options-choices/index.js -p 80
 node ./dist/33-options-choices/index.js --help
 ```
 
-# 33 - Options choices
+# 34 - Options mandatory
 
 Pour lancer l'application, il faut exécuter l'une des commandes suivantes :
 
