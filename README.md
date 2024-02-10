@@ -138,3 +138,15 @@ node ./dist/35-options-env/index.js -p
 node ./dist/35-options-env/index.js -p 80
 node ./dist/35-options-env/index.js --help
 ```
+
+# 36 - Options conflicts
+
+Pour lancer l'application, il faut exécuter l'une des commandes suivantes :
+
+```bash
+node ./dist/36-options-conflicts/index.js
+node ./dist/36-options-conflicts/index.js -p 8080
+node ./dist/36-options-conflicts/index.js --http
+node ./dist/36-options-conflicts/index.js -p 8080 --http
+node ./dist/36-options-conflicts/index.js --help
+```

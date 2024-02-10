@@ -51,6 +51,10 @@
     "./35-options-env": {
       "import": "./dist/35-options-env/index.js",
       "types": "./dist/35-options-env/index.d.ts"
+    },
+    "./36-options-conflicts": {
+      "import": "./dist/36-options-conflicts/index.js",
+      "types": "./dist/36-options-conflicts/index.d.ts"
     }
   },
   "scripts": {
