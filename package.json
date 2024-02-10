@@ -47,6 +47,10 @@
     "./34-options-mandatory": {
       "import": "./dist/34-options-mandatory/index.js",
       "types": "./dist/34-options-mandatory/index.d.ts"
+    },
+    "./35-options-env": {
+      "import": "./dist/35-options-env/index.js",
+      "types": "./dist/35-options-env/index.d.ts"
     }
   },
   "scripts": {
