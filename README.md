@@ -127,3 +127,14 @@ node ./dist/34-options-mandatory/index.js -p
 node ./dist/34-options-mandatory/index.js -p 80
 node ./dist/34-options-mandatory/index.js --help
 ```
+
+# 35 - Options env
+
+Pour lancer l'application, il faut exécuter l'une des commandes suivantes :
+
+```bash
+node ./dist/35-options-env/index.js
+node ./dist/35-options-env/index.js -p
+node ./dist/35-options-env/index.js -p 80
+node ./dist/35-options-env/index.js --help
+```
