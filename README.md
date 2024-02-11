@@ -1,3 +1,7 @@
+# Introduction
+
+Ce repository contient des exemples d'utilisation de la librairie `commander` pour la gestion des options et des arguments dans une application Node.js.
+
 # Lancer l'application
 
 Afin de compiler l'application, il faut exécuter les commandes suivantes :
